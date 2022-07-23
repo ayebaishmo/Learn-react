@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Jsx from './Jsx'
 import Tools from './Tools';
 import Trick from './Trick';
-import Foot from './Foot'
+import Foot from './Foot';
+import Cond from './Cond';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Tools name="Ishmo" tool="Adobe"/>
     <Trick />
     <Foot />
+    <Cond isGoal= {false}/>
   </React.StrictMode>
 );
 
