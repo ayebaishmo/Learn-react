@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Jsx from './Jsx'
 import Tools from './Tools';
 import Trick from './Trick';
+import Foot from './Foot'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Jsx />
     <Tools name="Ishmo" tool="Adobe"/>
     <Trick />
+    <Foot />
   </React.StrictMode>
 );
 

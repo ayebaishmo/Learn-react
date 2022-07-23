@@ -1,9 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-
-
-
 export default function Trick() {
   const [counter, setCounter] = useState(0);
   const handlesClick = () => setCounter(counter + 1);
